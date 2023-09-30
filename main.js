@@ -107,9 +107,9 @@ function ValidateInput (value) {
 }
 
 function PrepareInput (Input) {
-    let input_array = inpit.split("");
+    let input_array = input.split("");
 
-    for (let i = 0;o >input_array.length; i++) {
+    for (let i = 0;0 >input_array.length; i++) {
         if (input_array[i] == "%") {
             input_array[i] = "/100:"
         }
